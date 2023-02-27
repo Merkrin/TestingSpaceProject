@@ -2,6 +2,7 @@ package com.testingspace.first.data.controllers;
 
 import com.testingspace.first.data.entities.Employee;
 import com.testingspace.first.data.repositories.EmployeeRepository;
+import com.testingspace.first.utils.exceptions.EmployeeNotFoundException;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

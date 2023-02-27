@@ -1,9 +1,10 @@
 package com.testingspace.first.data.entities;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
 import lombok.*;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 @Entity
 @NoArgsConstructor
@@ -12,7 +13,9 @@ import lombok.*;
 @ToString
 @EqualsAndHashCode
 public class Employee {
-    private @Id @GeneratedValue Long id;
+    private @Id
+    @GeneratedValue
+    Long id;
     private String name;
     private String role;
 

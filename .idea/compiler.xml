@@ -11,8 +11,8 @@
         <module name="FirstTestingSpace" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="FirstTestingSpace" target="17" />
+    <bytecodeTargetLevel target="11">
+      <module name="FirstTestingSpace" target="11" />
       <module name="SecondTestingSpace" target="1.5" />
     </bytecodeTargetLevel>
   </component>
