@@ -16,18 +16,12 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping>
-          <factory-entry name="FirstTestingSpace" />
-        </datasource-mapping>
+        <datasource-mapping />
         <naming-strategy-map />
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration>
-        <fileset id="fileset" name="LoadDatabase" removed="false">
-          <file>file://$MODULE_DIR$/src/main/java/com/testingspace/first/core/LoadDatabase.java</file>
-        </fileset>
-      </configuration>
+      <configuration />
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
@@ -69,6 +63,9 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.20" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:5.3.20" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-hateoas:2.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.hateoas:spring-hateoas:1.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.plugin:spring-plugin-core:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.7.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.7.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.7.0" level="project" />
@@ -100,10 +97,10 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.7.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.7.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:2.7.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.jayway.jsonpath:json-path:2.7.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: net.minidev:json-smart:2.4.8" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: net.minidev:accessors-smart:2.4.8" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.ow2.asm:asm:9.1" level="project" />
+    <orderEntry type="library" name="Maven: com.jayway.jsonpath:json-path:2.7.0" level="project" />
+    <orderEntry type="library" name="Maven: net.minidev:json-smart:2.4.8" level="project" />
+    <orderEntry type="library" name="Maven: net.minidev:accessors-smart:2.4.8" level="project" />
+    <orderEntry type="library" name="Maven: org.ow2.asm:asm:9.1" level="project" />
     <orderEntry type="library" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" level="project" />
     <orderEntry type="library" name="Maven: jakarta.activation:jakarta.activation-api:1.2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:3.22.0" level="project" />

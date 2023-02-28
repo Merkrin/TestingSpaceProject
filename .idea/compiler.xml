@@ -14,6 +14,7 @@
     <bytecodeTargetLevel target="11">
       <module name="FirstTestingSpace" target="11" />
       <module name="SecondTestingSpace" target="1.5" />
+      <module name="TestingSpace" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
